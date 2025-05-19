@@ -283,7 +283,7 @@ body {
 .hero {
     height: 100vh;
     /* background: linear-gradient(var(--light-gray), var(--accent-color), var(--secondary-color), var(--primary-color)); */
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/cover.jpeg') center/cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/cover.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -690,7 +690,7 @@ footer{
     }
 
     .hero {
-        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/cover_3.JPEG') center/cover;
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/cover_3.jpg') center/cover;
     }
 
     .about-features {
