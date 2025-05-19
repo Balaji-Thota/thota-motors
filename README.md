@@ -1,12 +1,68 @@
-# React + Vite
+# Thota Motors - Auto Service Web App (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive frontend web application built for Thota Motors, a local auto service center. It showcases the services, gallery, and contact details in a clean and user-friendly layout.
 
-Currently, two official plugins are available:
+The project is built using React with Vite for fast development, and styled with plain CSS. It is deployed on Netlify and serves as a demonstration of my frontend development skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design across desktop and mobile
+- Modular React components
+- Service section with icons and descriptions
+- Contact section with basic layout
+- Gallery of real service images
+- Smooth scrolling and navigation
+
+---
+
+## Tech Stack
+
+- React
+- Vite
+- HTML/CSS
+- Netlify (for deployment)
+
+---
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/Balaji-Thota/thota-motors.git
+   cd thota-motors
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Start the development server:
+   ```
+   npm run dev
+   ```
+
+---
+
+## Live Demo
+
+You can view the live version here:  
+**https://thota-motors.netlify.app**
+
+---
+
+## Future Improvements
+
+- Backend integration with Node.js or Django
+- Online service booking feature
+- Admin and user login functionality
+
+---
+
+## Author
+
+**Balaji Thota**  
+Portfolio: [https://balaji-thota.github.io/Portfolio/](https://balaji-thota.github.io/Portfolio/)  
+LinkedIn: [https://linkedin.com/in/balaji-thota](https://linkedin.com/in/balaji-thota)
