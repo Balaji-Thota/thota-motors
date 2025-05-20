@@ -656,6 +656,12 @@ footer{
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex;
+        margin-left: 10%;
+    }
+
+    .report-btn {
+        font-size: 0.65rem;
+        margin-right: 0;
     }
 
     .nav-menu {
