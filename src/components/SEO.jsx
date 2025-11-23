@@ -1,5 +1,3 @@
-import { Helmet } from 'react-helmet-async';
-
 function SEO({ 
   title = "Thota Motors - Trusted Auto Service Center in Nellore", 
   description = "Professional car service and repair center in Nellore. Expert mechanics, genuine parts, oil change, brake service, engine diagnostics, and more. 15+ years of experience.",
