@@ -14,7 +14,7 @@ function About() {
                 <div className="feature">
                   <i className="fas fa-tools"></i>
                   <h4>Technicians</h4>
-                  <p>Experienced Mechanics</p>
+                  <p>Experienced<br /> Mechanics</p>
                 </div>
                 <div className="feature">
                   <i className="fas fa-clock"></i>
@@ -32,6 +32,10 @@ function About() {
             {/* About Image */}
             <div className="about-image">
               <img src="/images/1.jpg" alt="Our Workshop" />
+              <div className="image-badge">
+                <div className="badge-year">EST.</div>
+                <div className="badge-number">2009</div>
+              </div>
             </div>
           </div>
         </div>
