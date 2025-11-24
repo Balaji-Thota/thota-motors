@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function Gallery() {
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -44,7 +44,7 @@ function Gallery() {
   };
 
   // Add keyboard listener
-  useState(() => {
+  useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [lightboxOpen]);
