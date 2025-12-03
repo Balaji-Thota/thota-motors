@@ -1279,6 +1279,9 @@ footer{
         flex: 1;
         justify-content: center;
         align-items: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .nav-toggle {
@@ -1373,6 +1376,9 @@ footer{
 
     .hero {
         background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/cover_3.jpg') center/cover;
+        height: 100dvh; /* Dynamic viewport height - better for mobile */
+        min-height: 100vh; /* Fallback */
+        padding-top: 80px; /* Account for navbar */
     }
 
     .about-features {
