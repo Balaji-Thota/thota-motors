@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+frontend/public/images/*.jpg
+frontend/public/images/*.JPG
+frontend/public/images/*.jpeg
+frontend/public/images/*.JPEG
+frontend/public/images/*.png
+
+# Images (stored locally, not in Git)
+public/images/*
